@@ -1,7 +1,11 @@
 package panaderia;
 
 public class ExceptionPan extends Exception{
-    public ExceptionPan(){
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	public ExceptionPan(){
         super("Mensaje por defecto");
     }
     public ExceptionPan(String mensaje){
